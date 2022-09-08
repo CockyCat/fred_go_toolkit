@@ -13,6 +13,7 @@ type Release struct {
 	Name         string `json:"name" xml:"name,attr"`
 	PressRelease bool   `json:"press_release" xml:"press_release,attr"`
 	Link         string `json:"link" xml:"link,attr"`
+	Notes        string `json:"notes" xml:"notes,attr"`
 }
 
 // ReleaseDate is a single instance of a release date of FRED economic data.
