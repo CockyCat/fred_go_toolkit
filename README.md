@@ -14,7 +14,6 @@ This is a GoLang toolkit for working with the Federal Reserve Economic Data. FRE
 
 ## Get a FRED API key
 
-Sign up for a Fred API key: [http://api.stlouisfed.org/api_key.html](http://api.stlouisfed.org/api_key.html)
 
 ## Usage Example
 
@@ -37,7 +36,6 @@ params := make(map[string]interface{})
 
 params["category_id"] = 125
 
-    url: 'https://api.stlouisfed.org/fred/category?category_id=125&api_key=apiKey&file_type=json' 
 
 fc, err := client.GetRecord(params)
 
