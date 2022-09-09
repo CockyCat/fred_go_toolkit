@@ -16,6 +16,7 @@ type Series struct {
 	SeasonalAdjustmentShort string `json:"seasonal_adjustment_short" xml:"seasonal_adjustment_short,attr"`
 	LastUpdated             string `json:"last_updated" xml:"last_updated,attr"`
 	Popularity              int    `json:"popularity" xml:"popularity,attr"`
+	GroupPopularity         int    `json:"group_popularity" xml:"group_popularity,attr"`
 	Notes                   string `json:"notes" xml:"notes,attr"`
 }
 
